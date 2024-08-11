@@ -19,8 +19,8 @@
     <!-- <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg"> -->
     <meta property="og:type" content="website">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
     <link rel="manifest" href="manifest.json">
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
 
@@ -69,7 +69,7 @@
     <section class="navigation">
         <header>
             <div class="header-content">
-                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <!-- <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div> -->
                 <div class="header-nav">
                     <nav>
                         <!-- <ul class="primary-nav">
@@ -158,13 +158,13 @@
             <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
                 <div class="wp3">
                     <p><strong>27th November</strong></p>
-                    <h5>Event1<span class="time">1PM - 5PM</span></h5>
+                    <h5>Event1 <span class="time">1PM - 5PM</span></h5>
                     <p>
                         placeholder
                     </p>
                 </div>
                 <div class="wp5">
-                    <h5>Event 2<span class="time">7PM - 12AM</span></h5>
+                    <h5>Event 2 <span class="time">7PM - 12AM</span></h5>
                     <p>
                         placeholder
                     </p>
@@ -443,15 +443,9 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <!-- <i class="fa fa-users"></i>
-                                    <label>
-                                        <input type="checkbox" name="extras" class="">
-                                        +1?
-                                    </label> -->
-                                    <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="1"
-                                                                  placeholder="+1?"
-                                                                  required>
+                                    <i class="fa fa-users"></i><input name="plusone" class="" 
+                                                                  placeholder="Name of +1, if applicable"
+                                                                >
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -462,6 +456,23 @@
                                                                 required>
                             </div>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-ship"></i><input name="catamaran" class="" 
+                                                                placeholder="Catamaran 11/22 for $100?"
+                                                                required>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
+                            </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
