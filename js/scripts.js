@@ -200,7 +200,7 @@ $(document).ready(function () {
             address: 'Costa Rica',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact ."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact us."
         }
     });
 
